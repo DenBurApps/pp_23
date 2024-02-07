@@ -49,8 +49,15 @@ class _HomeViewState extends State<HomeView> {
         child: Column(
           children: [
             Row(
-              mainAxisAlignment: MainAxisAlignment.end,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
+                ClipRRect(
+                  clipBehavior: Clip.hardEdge,
+                  borderRadius: BorderRadius.circular(12),
+                  child: Assets.images.icon.image(
+                  width: 60, 
+                  height: 60
+                ),),
                 const SettingsButton(),
               ],
             ),

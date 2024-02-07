@@ -3,7 +3,7 @@ import 'package:pp_23/presentation/modules/onboarding_view.dart';
 import 'package:pp_23/presentation/modules/pages/home/views/single_crypto_view.dart';
 import 'package:pp_23/presentation/modules/pages/news/single_news_view.dart';
 import 'package:pp_23/presentation/modules/pages/pages_view.dart';
-import 'package:pp_23/presentation/modules/privacy_view.dart';
+import 'package:pp_23/presentation/modules/privacy_agreement_view.dart';
 import 'package:pp_23/presentation/modules/splash_view.dart';
 
 part 'route_names.dart';

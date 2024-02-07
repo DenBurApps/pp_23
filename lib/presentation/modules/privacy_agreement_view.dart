@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
+import 'package:pp_23/presentation/components/app_button.dart';
 import 'package:pp_23/routes/routes.dart';
 import 'package:pp_23/services/database/database_keys.dart';
 import 'package:pp_23/services/database/database_service.dart';
@@ -160,9 +161,9 @@ class _PrivacyAgreementViewState extends State<PrivacyAgreementView> {
                               SizedBox(
                             width: constraints.maxWidth * 0.9,
                             height: 60,
-                            child: ElevatedButton(
+                            child: AppButton(
                               onPressed: _accept,
-                              child: const Text('Agree'),
+                              label: 'Accept app privacy',
                             ),
                           ),
                         ),
