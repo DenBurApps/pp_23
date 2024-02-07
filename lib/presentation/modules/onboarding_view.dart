@@ -46,11 +46,11 @@ class _OnboardingViewState extends State<OnboardingView> {
     _databaseService.put(DatabaseKeys.seenOnboarding, true);
   }
 
-  void _skip() => Navigator.of(context).pushReplacementNamed(RouteNames.pages);
+  void _skip() => Navigator.of(context).pushReplacementNamed(RouteNames.privacyAgreement);
 
   void _progress() {
     if (_currentStep == 2) {
-      Navigator.of(context).pushReplacementNamed(RouteNames.pages);
+      Navigator.of(context).pushReplacementNamed(RouteNames.privacyAgreement);
     } else {
       setState(() => _currentStep++);
     }
