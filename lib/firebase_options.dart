@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAvXwDppZi7TnJlm6u2wkc9nZsJODssX90',
-    appId: '1:1033624057038:android:2d440f2ff8ba9c49d30c9f',
-    messagingSenderId: '1033624057038',
-    projectId: 'cryptoappsbussepp23',
-    storageBucket: 'cryptoappsbussepp23.appspot.com',
+    apiKey: 'AIzaSyBOOye-hz6SUgDcYMQHbNrxqR93i86Uel4',
+    appId: '1:667252652494:android:c03c817c06e76941c6939f',
+    messagingSenderId: '667252652494',
+    projectId: 'cryptoapp23-db47a',
+    storageBucket: 'cryptoapp23-db47a.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAqTkjamf9oY7IeX-DunHsF8_vYVk9qzgg',
-    appId: '1:1033624057038:ios:cd04b3eabff5a804d30c9f',
-    messagingSenderId: '1033624057038',
-    projectId: 'cryptoappsbussepp23',
-    storageBucket: 'cryptoappsbussepp23.appspot.com',
+    apiKey: 'AIzaSyBYMMSeXYzp6hWY6xVzhZr4SQllkwlNtos',
+    appId: '1:667252652494:ios:6dfc0fd952691db7c6939f',
+    messagingSenderId: '667252652494',
+    projectId: 'cryptoapp23-db47a',
+    storageBucket: 'cryptoapp23-db47a.appspot.com',
     iosBundleId: 'com.cryp2.fina23',
   );
 }
