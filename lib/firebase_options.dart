@@ -59,10 +59,10 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAqTkjamf9oY7IeX-DunHsF8_vYVk9qzgg',
-    appId: '1:1033624057038:ios:5b5cf81cd6002f26d30c9f',
+    appId: '1:1033624057038:ios:cd04b3eabff5a804d30c9f',
     messagingSenderId: '1033624057038',
     projectId: 'cryptoappsbussepp23',
     storageBucket: 'cryptoappsbussepp23.appspot.com',
-    iosBundleId: 'com.example.pp23',
+    iosBundleId: 'com.cryp2.fina23',
   );
 }
