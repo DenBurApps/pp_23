@@ -178,6 +178,6 @@ class _PrivacyAgreementViewState extends State<PrivacyAgreementView> {
   void _accept() {
     _databaseService.put(DatabaseKeys.acceptedPrivacy, true);
 
-    Navigator.of(context).pushReplacementNamed(RouteNames.onboarding);
+    Navigator.of(context).pushReplacementNamed(RouteNames.pages);
   }
 }

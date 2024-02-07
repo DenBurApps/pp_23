@@ -14,7 +14,6 @@ class Routes {
   static Map<String, AppRoute> get(BuildContext context) => {
         RouteNames.splash: (context) => const SplashView(),
         RouteNames.onboarding: (context) => const OnboardingView(),
-        RouteNames.privacy: (context) => const PrivacyAgreementView(),
         RouteNames.pages: (context) => const PagesView(),
         RouteNames.singleNews: (context) => SingleNewsView.create(context),
         RouteNames.singleCrypto: (context) => SingleCryptoView.crate(context),
