@@ -275,7 +275,7 @@ class _ContactUsPopUpState extends State<_ContactUsPopUp> {
       setState(() => _isButtonEnabled = _messageContoller.text.isNotEmpty);
 
   void _send() => EmailHelper.launchEmailSubmission(
-        toEmail: 'toEmail',
+        toEmail: 'Qasim8262922@gmail.com',
         subject: 'Connect with support',
         body: _messageContoller.text,
         errorCallback: () {},

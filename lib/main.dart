@@ -68,6 +68,7 @@ class MyApp extends StatelessWidget {
       child: ThemeConsumer(
         child: Builder(
           builder: (context) => MaterialApp(
+            title: 'SBusse Rate Exch & Crypto Info',
             debugShowCheckedModeBanner: false,
             routes: Routes.get(context),
             theme: ThemeProvider.themeOf(context).data,

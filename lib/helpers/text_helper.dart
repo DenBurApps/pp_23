@@ -2,11 +2,11 @@ class TextHelper {
   static const privacy = '''
 # Privacy Policy
 
-**Last updated:** January 17, 2024
+Last updated: February 06, 2024
 
-This Privacy Policy describes our policies and procedures regarding the collection, use, and disclosure of your information when you use the Service. It also informs you about your privacy rights and how the law protects you.
+This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
-By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy. This policy has been created with the help of the Free Privacy Policy Generator.
+We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the Free Privacy Policy Generator.
 
 ## Interpretation and Definitions
 
@@ -112,10 +112,16 @@ We may update our Privacy Policy from time to time. Notification of changes will
 ## Contact Us
 If you have any questions about this Privacy Policy, you can contact us:
 
-- **By email:** [ttiftongchoked49055@gmail.com](mailto:ttiftongchoked49055@gmail.com)
+- **By email:** [Qasim8262922@gmail.com](mailto:Qasim8262922@gmail.com)
 ''';
 
   static const terms = '''
+# Terms and Conditions
+
+Last updated: February 06, 2024
+
+Please read these terms and conditions carefully before using Our Service.
+
 # Interpretation and Definitions
 
 ## Interpretation
@@ -203,7 +209,7 @@ By continuing to access or use Our Service after those revisions become effectiv
 ## Contact Us
 If you have any questions about these Terms and Conditions, You can contact us:
 
-- **By email:** [ttiftongchoked49055@gmail.com](mailto:ttiftongchoked49055@gmail.com)
+- **By email:** [Qasim8262922@gmail.com](mailto:Qasim8262922@gmail.com)
 
 ''';
 }
