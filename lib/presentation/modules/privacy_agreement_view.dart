@@ -141,10 +141,13 @@ class _PrivacyAgreementViewState extends State<PrivacyAgreementView> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor:
-          agreeButton ? Colors.white : Theme.of(context).colorScheme.background,
+          agreeButton ? Theme.of(context).colorScheme.background : Colors.white ,
       body: isLoading
-          ? const Center(
-              child: CupertinoActivityIndicator(),
+          ?  Center(
+              child: CupertinoActivityIndicator(
+                radius: 20, 
+                color: Theme.of(context).colorScheme.onBackground,
+              ),
             )
           : SafeArea(
               child: Stack(
