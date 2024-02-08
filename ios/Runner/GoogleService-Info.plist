@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyAODM-hRPCfNU-F_qlw5oLRf3y4okwhXbc</string>
+	<string>AIzaSyBYMMSeXYzp6hWY6xVzhZr4SQllkwlNtos</string>
 	<key>GCM_SENDER_ID</key>
-	<string>713069832441</string>
+	<string>667252652494</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.pp23</string>
+	<string>com.cryp2.fina23</string>
 	<key>PROJECT_ID</key>
-	<string>pp23-37b04</string>
+	<string>cryptoapp23-db47a</string>
 	<key>STORAGE_BUCKET</key>
-	<string>pp23-37b04.appspot.com</string>
+	<string>cryptoapp23-db47a.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:713069832441:ios:b2e421eb7964ad20401a28</string>
+	<string>1:667252652494:ios:6dfc0fd952691db7c6939f</string>
 </dict>
 </plist>
